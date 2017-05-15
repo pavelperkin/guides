@@ -245,7 +245,7 @@ And our API might setup these relationships like so:
 ### Readonly Nested Data
 
 Some models may have properties that are deeply nested objects of
-readonly data. The naïve solution would be to define models for each
+readonly data. The naive solution would be to define models for each
 nested object and use `hasMany` and `belongsTo` to recreate the nested
 relationship. However, since readonly data will never need to be
 updated and saved this often results in the creation of a great deal
